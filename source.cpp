@@ -35,7 +35,7 @@ int main() {
 		printf("	Color type		%u\n", ihdr->type);
 		printf("	Compression method	%u\n", ihdr->compression);
 		printf("	Filter method		%u\n", ihdr->filter);
-		printf("	Interlace metho		%u\n", ihdr->interlace);
+		printf("	Interlace method		%u\n", ihdr->interlace);
 		printf("	CRC			%04X\n", reverse_uint32_t(png.IHDR.crc));
 
 		printf("\n");
